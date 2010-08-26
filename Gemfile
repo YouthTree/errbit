@@ -9,7 +9,7 @@ gem 'will_paginate'
 gem 'devise', '1.1.1'
 
 group :development do
-  gem 'youthtree-capistrano', :require => nil
+  gem 'youthtree-capistrano', '>= 0.1.1', :require => nil
 end
 
 group :development, :test do

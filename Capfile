@@ -1,3 +1,6 @@
+# Disable unneeded extras.
+[:uploads, :barista, :compass, :jammit, :uploads].each { |k| set k, false }
+
 require 'rubygems'
 require 'bundler/setup'
 require 'youthtree-capistrano'
