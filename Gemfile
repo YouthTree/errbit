@@ -8,6 +8,10 @@ gem 'haml'
 gem 'will_paginate'
 gem 'devise', '1.1.1'
 
+group :development do
+  gem 'youthtree-capistrano'
+end
+
 group :development, :test do
   gem 'rspec-rails', '>= 2.0.0.beta.19'
 end
