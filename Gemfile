@@ -8,6 +8,9 @@ gem 'haml'
 gem 'will_paginate'
 gem 'devise', '1.1.1'
 
+# Deploy server
+gem 'unicorn'
+
 group :development do
   gem 'youthtree-capistrano', '>= 0.1.1', :require => nil
 end
