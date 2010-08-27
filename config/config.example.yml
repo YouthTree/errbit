@@ -18,3 +18,13 @@ email_from: errbit@example.com
 # [1,3,7] = 1st, 3rd, and 7th occurence triggers
 # an email notification.
 email_at_notices: [1, 10, 100]
+
+# Use email configuration
+smtp_settings:
+  address: smtp.gmail.com
+  port: 587
+  authentication: plain
+  enable_starttls_auto: true
+  domain: something
+  username: another@something
+  password: example
