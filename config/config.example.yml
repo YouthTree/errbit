@@ -28,3 +28,6 @@ smtp_settings:
   domain: something
   username: another@something
   password: example
+# Set to false to suppress confirmation when 
+# resolving errors.
+confirm_resolve_err: true
